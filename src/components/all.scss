@@ -1,0 +1,7 @@
+@import "~bulma/sass/utilities/initial-variables";
+@import "./_fonts.scss";
+@import "./_variables.scss";
+
+body {
+    background-color: $background-alpha;
+}
