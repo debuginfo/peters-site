@@ -1,0 +1,27 @@
+.intro {
+  max-width: 70%;
+  &__container {
+    font-size: 18px;
+    color: $subtitle-color;
+    font-weight: 400;
+  }
+
+  p {
+    line-height: 28px;
+    margin-bottom: 16px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__link-highlight {
+    text-decoration: none;
+    color: $font-color;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      color: $font-color-active;
+      text-decoration: underline;
+    }
+  }
+}

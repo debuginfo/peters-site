@@ -5,6 +5,8 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
+import PageLayout from '../components/PageLayout';
+import Intro from "../components/Intro";
 
 export const IndexPageTemplate = ({
   image,
@@ -15,9 +17,10 @@ export const IndexPageTemplate = ({
   description,
   intro,
 }) => (
-  <div>
-    <span>Nothing to see here... :)</span>
-  </div>
+  <PageLayout>
+     <Intro/>
+     <BlogRoll/>
+  </PageLayout>
 )
 
 IndexPageTemplate.propTypes = {
