@@ -7,6 +7,7 @@ import Features from '../components/Features'
 import BlogRoll from '../components/BlogRoll'
 import PageLayout from '../components/PageLayout';
 import Intro from "../components/Intro";
+import Experience from '../components/Experience'
 
 export const IndexPageTemplate = ({
   image,
@@ -20,6 +21,7 @@ export const IndexPageTemplate = ({
   <PageLayout>
      <Intro/>
      <BlogRoll/>
+     <Experience />
   </PageLayout>
 )
 

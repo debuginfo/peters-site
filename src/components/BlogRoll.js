@@ -12,13 +12,13 @@ class BlogRoll extends React.Component {
       <div className="blog-roll__container">
         <h3 className="blog-roll__title">Write-ups</h3>
         <p className="blog-roll__description">I speak at meetups and conferences on topics that I'm excited about.</p>
-        <ul className="blog-roll__list">
+        <ul className="list">
           { posts && posts.map(({node: post}, index) => (
             <li 
-              className="blog-roll__list-item"
+              className="list__item"
               key={index}>
               <Link 
-                className="blog-roll__list-item--link"
+                className="list__item-link"
                 to={post.fields.slug}
                 >
                   {post.frontmatter.title}
